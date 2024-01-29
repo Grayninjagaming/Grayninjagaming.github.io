@@ -22,11 +22,11 @@
 		});
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+		//$window.on('load', function() {
+		//	window.setTimeout(function() {
+			//	$body.removeClass('is-preload');
+		//	}, 1);
+		//});
 
 	// Mobile?
 		if (browser.mobile)
@@ -43,10 +43,10 @@
 
 		}
 
-	// Scrolly.
+	Scrolly.
 		$('.scrolly')
 			.scrolly({
-				speed: 1500,
+				speed: 70000,
 				offset: $header.outerHeight()
 			});
 
