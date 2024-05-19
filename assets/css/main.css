@@ -3341,7 +3341,7 @@ input, select, textarea {
 			display: none;
 			height: 100%;
 			left: 0;
-			position: fixed;
+			position: scroll;
 			top: 0;
 			width: 100%;
 			z-index: 10001;
@@ -3363,7 +3363,7 @@ input, select, textarea {
 		max-width: 80%;
 		overflow-y: auto;
 		padding: 3em 2em;
-		position: fixed;
+		position: scroll;
 		right: 0;
 		top: 0;
 		width: 20em;
@@ -3455,7 +3455,7 @@ input, select, textarea {
 		height: 3em;
 		left: 0;
 		line-height: 3em;
-		position: fixed;
+		position: scroll;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -3824,7 +3824,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
